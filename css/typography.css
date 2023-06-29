@@ -1,9 +1,9 @@
 /*
 
 Template: Sofbox - Responsive Software Landing Page
-Author: iqonicthemes.in
+Author: softshirtthemes.in
 Version: 3.0
-Design and Developed by: iqonicthemes.in
+Design and Developed by: softshirtthemes.in
 
 */
 
@@ -124,15 +124,15 @@ color: #ffffff; }
 color: #ffffff; }
 :-moz-placeholder { /* Firefox 18- */
 color: #ffffff; }
-textarea.form-control,textarea {background: none; height: 230px; padding: 15px 30px;margin-bottom: 30px; 
+textarea.form-control,textarea {background: none; height: 230px; padding: 15px 30px;margin-bottom: 30px;
 	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; border: 2px solid #666666;}
- input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus ,textarea:hover,textarea:focus{ 
+ input:hover, input.form-control:hover, input:focus, input.form-control:focus, textarea.form-control:hover, textarea.form-control:focus ,textarea:hover,textarea:focus{
  	border: 2px solid #ff9068;
  	background: none;
  	outline: 0;
  	box-shadow: none;
  	color: #ffffff;
- 	 
+
  	  }
 
 /*----------------------------------------------------------------------
@@ -181,10 +181,10 @@ Paging
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
- 
+
  border-color: rgba(39,53,255,1); background: -moz-linear-gradient(left, rgba(118,109,254,1) 0%, rgba(118,109,254,1) 0%, rgba(39,53,255,1) 51%, rgba(39,53,255,1) 100%);
 background-image: linear-gradient(to right,#766dfe 0%,#766dfe 25%,#2735ff 100%);
-    
+
  border-radius: 5px; text-align: center; color: #ffffff;  z-index: 1; }
 
  .pagination li { z-index: 1;display: inline-block; }

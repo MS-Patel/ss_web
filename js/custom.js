@@ -1,8 +1,8 @@
 /*
 Vizion - Al/ML - Chatbot Responsive HTML5 Template
-Author: iqonicthemes.in
+Author: softshirtthemes.in
 Version: 1.0
-Design and Developed by: iqonicthemes.in
+Design and Developed by: softshirtthemes.in
 */
 /*----------------------------------------------
 Index Of Script
@@ -65,7 +65,7 @@ Index Of Script
 
 
 
-      
+
 
 
 
@@ -198,7 +198,7 @@ Index Of Script
         /*------------------------
         3 Masonry
         --------------------------*/
-           
+
      /*   var $msnry = $('.iq-masonry-block .iq-masonry');
         if ($msnry) {
             var $filter = $('.iq-masonry-block .isotope-filters');
@@ -254,7 +254,7 @@ Index Of Script
             if ($(this).scrollTop() >= ($('#how-it-works').offset().top - 2000)) {
                 $('#great-screenshots ul li').children('a[aria-selected=true]').addClass('active');
                 e.preventDefault();
-            }    
+            }
         }
     });
 
@@ -414,21 +414,21 @@ Index Of Script
 
 
 
-        
+
 
 });
-       
-
-
-  
-
-    
 
 
 
-   
-
-   
 
 
- 
+
+
+
+
+
+
+
+
+
+
