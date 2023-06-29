@@ -526,7 +526,7 @@ footer .iq-contact p footer .iq-contact a { display: table; color: #e0e0e0; marg
 /*---------------------------------------------------------------------
        Coming Soon
 ---------------------------------------------------------------------*/
-.coming-height { min-height: 800px; vertical-align: middle; }
+.coming-height { min-height: 500px; vertical-align: middle; }
 .iq-coming .big-text { font-size: 80px; text-transform: uppercase; color: #ffffff; font-weight: 900; line-height: 100px; font-family: 'Josefin Sans', sans-serif; }
 .iq-coming img { width: 140px; }
 .iq-coming form label { margin-right: 30px; }
