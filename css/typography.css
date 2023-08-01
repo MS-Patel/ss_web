@@ -198,7 +198,7 @@ Background  color
 .dark-bg{background: #0e0f16;}
 .orange-bg{background: #fda96c;}
 .lightdark-bg{background: #191a20;}
-.main-bg { background: url("../images/bg/01.png") no-repeat center center;}
+.main-bg { background: url("../images/bg/01.png") center center;}
 
 
 
