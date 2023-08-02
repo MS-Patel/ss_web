@@ -93,7 +93,7 @@ Design and Developed by: softshirtthemes.in
 	header .navbar .navbar-nav .nav-item a.active::before, header .navbar .navbar-nav .nav-item:hover>a::before, header .navbar .navbar-nav .nav-item>a:hover::before { display: none; }
 	#our_mission{ display: none; }
 	.iq-about-us { padding-bottom: 0px; padding-top: 50px;}
-
+	.data-header {margin-bottom: 225px;}
 }
 @media(max-width:979px) { }
 @media(max-width:767px) {
