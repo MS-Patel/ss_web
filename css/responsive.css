@@ -94,6 +94,8 @@ Design and Developed by: softshirtthemes.in
 	#our_mission{ display: none; }
 	.iq-about-us { padding-bottom: 0px; padding-top: 50px;}
 	.data-header {margin-bottom: 225px;}
+	.full-img-left img{max-width: 100%;left: 0%;
+		position: relative;}
 }
 @media(max-width:979px) { }
 @media(max-width:767px) {
