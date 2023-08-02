@@ -165,9 +165,9 @@ header .navbar .navbar-nav .nav-item a:hover, header .navbar .navbar-nav .nav-it
 header .navbar .navbar-nav .nav-item a::before { background: #ff9068; bottom: 0; content: ""; height: 2px; left: 0; position: absolute; width: 0; transition: all 0.3s ease-out 0s; }
 header .navbar .navbar-nav .nav-item a.active::before, header .navbar .navbar-nav .nav-item:hover>a::before, header .navbar .navbar-nav .nav-item>a:hover::before { width: 100%; }
 header .button, header .button-line { margin-top: 0; margin-left: 40px; }
-header .navbar-light .navbar-nav .nav-item .dropdown-menu a { color: #000000; padding: 5px 15px; }
+header .navbar-dark .navbar-nav .nav-item .dropdown-menu a { color: #000000; padding: 5px 15px; }
 header .navbar-nav .dropdown-menu { top: 48px; }
-header .navbar-light .navbar-nav .nav-item .dropdown-menu a:hover, header .navbar-light .navbar-nav .nav-item .dropdown-menu a.active { color: #ff9068; }
+header .navbar-dark .navbar-nav .nav-item .dropdown-menu a:hover, header .navbar-dark .navbar-nav .nav-item .dropdown-menu a.active { color: #ff9068; }
 header .navbar .navbar-nav .nav-item  .dropdown-menu a.active::before, header .navbar .navbar-nav .nav-item  .dropdown-menu  a:hover::before { display: none; }
 
 /* Header sticky */
@@ -1196,19 +1196,7 @@ ul.iq-list { margin: 0px; }
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-  /* line 3067, src/assets/scss/custom/_style.scss */
-  .integration-list-wrap a img {
-    padding: 0;
-  }
-  /* line 3070, src/assets/scss/custom/_style.scss */
-  .integration-list-wrap a {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    margin-right: 8px;
-    margin-left: 8px;
-  }
-}
+
 
 /* line 3077, src/assets/scss/custom/_style.scss */
 .integration-list {
@@ -1271,6 +1259,24 @@ ul.iq-list { margin: 0px; }
           box-shadow: 0 20px 20px 0 rgba(2, 19, 79, 0.1);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 3067, src/assets/scss/custom/_style.scss */
+  .integration-list {
+    grid-template-columns: repeat(auto-fit, minmax(20%,1fr));
+  }
+
+  .integration-list-wrap a img {
+    padding: 0;
+  }
+  /* line 3070, src/assets/scss/custom/_style.scss */
+  .integration-list-wrap a {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
 }
 
 /* line 3108, src/assets/scss/custom/_style.scss */

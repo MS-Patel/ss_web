@@ -61,7 +61,7 @@ Design and Developed by: softshirtthemes.in
 	.slider-container .slider-left { left: 15px; }
 	.slider-container .slider-right { right: 15px; }
 	header .container-fluid { padding: 0 50px; }
-	header .navbar-light .navbar-nav .nav-item.dropdown .dropdown-menu a { color: #222222; padding: 0 15px; }
+	header .navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu a { color: #222222; padding: 0 15px; }
 	.blog.effect-chico h2 { line-height: 40px; font-size: 20px; }
 	.iq-rpt-0 { padding-top: 0; }
 	.iq-rmt-50 { margin-top: 50px; }
@@ -69,7 +69,7 @@ Design and Developed by: softshirtthemes.in
 	.team-right { margin-top: 80px; }
 	.iq-testimonial .owl-carousel.owl-theme .owl-dots { width: 100%; }
 	.iq-pricing-table { margin-top: 50px; }
-	.iq-work-id { position: relative; top: -30px; }
+	.iq-work-id { display: none; }
 	.iq-work-detail { padding: 60px 50px 60px; }
 	.right-image, .left-image { position: relative; right: 0; left: 0; margin-top: 50px; }
 	.main-bg { background-position: 0 0; background-size: 100% 100%; }
@@ -81,16 +81,19 @@ Design and Developed by: softshirtthemes.in
 	.heading-left.title { margin-bottom: 30px; }
 	section { padding: 80px 0; }
 	header { padding: 10px 0; }
-	header .navbar-light .navbar-collapse { position: absolute; top: 75px; width: 100%; }
-	header.menu-sticky .navbar-light .navbar-collapse { top: 60px; }
-	header .navbar-light .navbar-toggler { border: 2px solid #ffffff; background: #ffffff; border-radius: 0px; height: 45px; }
-	header .navbar-light .navbar-nav .nav-item { margin: 0 20px; }
-	header .navbar-light .navbar-nav { background: #ffffff; padding: 10px 0; border: 1px solid #dddddd; }
-	header .navbar-light .navbar-nav .dropdown-menu { border: none; padding: 10px; }
-	header .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { color: #ff9068; }
-	header .navbar-light .navbar-nav .nav-item a { color: #222222; }
-	header .navbar-light .navbar-nav .nav-item:hover a, header .navbar-light .navbar-nav .nav-item a.active, header .navbar-light .navbar-nav .nav-item a:focus, header .navbar-light .navbar-nav .nav-item a:focus { color: #ff9068; }
+	header .navbar-dark .navbar-collapse { position: absolute; top: 75px; width: 100%; }
+	header.menu-sticky .navbar-dark .navbar-collapse { top: 60px; }
+	header .navbar-dark .navbar-toggler { border: 2px solid #505050; background: #000; border-radius: 0px; height: 45px; }
+	header .navbar-dark .navbar-nav .nav-item { margin: 0 20px; }
+	header .navbar-dark .navbar-nav { background: #ffffff; padding: 10px 0; border: 1px solid #dddddd; }
+	header .navbar-dark .navbar-nav .dropdown-menu { border: none; padding: 10px; }
+	header .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link { color: #ff9068; }
+	header .navbar-dark .navbar-nav .nav-item a { color: #222222; }
+	header .navbar-dark .navbar-nav .nav-item:hover a, header .navbar-dark .navbar-nav .nav-item a.active, header .navbar-dark .navbar-nav .nav-item a:focus, header .navbar-dark .navbar-nav .nav-item a:focus { color: #ff9068; }
 	header .navbar .navbar-nav .nav-item a.active::before, header .navbar .navbar-nav .nav-item:hover>a::before, header .navbar .navbar-nav .nav-item>a:hover::before { display: none; }
+	#our_mission{ display: none; }
+	.iq-about-us { padding-bottom: 0px; padding-top: 50px;}
+
 }
 @media(max-width:979px) { }
 @media(max-width:767px) {
