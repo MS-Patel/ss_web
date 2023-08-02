@@ -1024,7 +1024,7 @@ list
 
 ul.iq-list { margin: 0px; }
 
-.full-img-left img{max-width: none !important;left: -60%;
+.full-img-left img{max-width: 150%;left: -60%;
   position: relative;}
 .full-img-left-two img{max-width: none !important;left: -40%;
   position: relative;}
