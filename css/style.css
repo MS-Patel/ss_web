@@ -1035,9 +1035,13 @@ ul.iq-list { margin: 0px; }
 }
 .full-img-right img{max-width: none !important;right: 0;
   position: relative;}
+
+
+
 @media (max-width:1024px){
 .full-img-right img{max-width: 100% !important;}
 }
+
 .job-potal-img img{max-width: none !important;
   position: absolute;
   top: -150px;}
@@ -1075,6 +1079,13 @@ ul.iq-list { margin: 0px; }
       margin-bottom:5px
      }
 
+     @media (max-width:520px) {
+      .feature-item {
+        margin:10px 0;
+        text-align:center;
+        line-height: 1.5;
+       }
+    }
 
      .center_head {
       max-width:870px;
